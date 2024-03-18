@@ -1,0 +1,16 @@
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\Signature.Domain.deps.json
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\Signature.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\ref\Signature.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\Signature.Domain.pdb
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\BrDateTimeUtils.dll
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\BrDateTimeUtils.pdb
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.csproj.AssemblyReference.cache
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.AssemblyInfoInputs.cache
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.AssemblyInfo.cs
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.csproj.CoreCompileInputs.cache
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.csproj.CopyComplete
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\ref\Signature.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\obj\Debug\net5.0\Signature.Domain.pdb
+D:\dev_Projects\capwise\net-core-apps\Signature.Domain\bin\Debug\net5.0\Resources\Cert\signing-cert.pfx

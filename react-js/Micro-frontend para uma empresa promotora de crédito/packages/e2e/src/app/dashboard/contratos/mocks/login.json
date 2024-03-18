@@ -1,0 +1,9 @@
+{
+  "retorno": {
+    "nome": "Fagner Schwalm",
+    "email": "fagnerschwalm@gmail.com",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjI2NzMzMTE0LCJleHAiOjE3MDAwMDAwMDAsImlhdCI6MTYyNjczMzExNH0.ACDDhcuJB10OlfIHItxX2vtSQ13Oq5ZKzcquYv8-ar4"
+  },
+  "alertas": [],
+  "erros": []
+}

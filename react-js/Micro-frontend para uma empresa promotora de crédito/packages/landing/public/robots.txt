@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://plataformacliente-dev-docker.azurewebsites.net
+
+# Sitemaps
+Sitemap: https://plataformacliente-dev-docker.azurewebsites.net/sitemap.xml

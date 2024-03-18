@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Signature.Domain/1.0.0": {
+        "dependencies": {
+          "BrDateTimeUtils": "1.0.0"
+        },
+        "runtime": {
+          "Signature.Domain.dll": {}
+        }
+      },
+      "BrDateTimeUtils/1.0.0": {
+        "runtime": {
+          "BrDateTimeUtils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Signature.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrDateTimeUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

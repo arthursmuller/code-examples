@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Infraestrutura</RootNamespace>
+  </PropertyGroup>
+
+  <Target Name="PostBuild_EF" AfterTargets="PostBuildEvent">
+    <Exec Command="dotnet ef migrations script --idempotent --output SQL/Scripts/PlataformaClienteFinal_DB.sql --no-build" IgnoreExitCode="true" />
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="B.Arquivo" Version="4.5.1" />
+    <PackageReference Include="B.Comunicacao" Version="8.0.25" />
+    <PackageReference Include="B.Configuracao" Version="1.5.4" />
+    <PackageReference Include="B.Mensagens" Version="3.6.8" />
+    <PackageReference Include="B.Repositorio" Version="5.2.0" />
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="jose-jwt" Version="2.4.0" />
+    <PackageReference Include="MassTransit" Version="7.0.4" />
+    <PackageReference Include="MaxMind.GeoIP2" Version="3.3.0" />
+    <PackageReference Include="B.WhatsApp" Version="1.3.4-beta" />
+    <PackageReference Include="SharedKernel" Version="2.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SQL\Repositorio\StatusBanco.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

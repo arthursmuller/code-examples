@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ExternalEntities.Domain/1.0.0": {
+        "dependencies": {
+          "BrDateTimeUtils": "1.0.0",
+          "RichEnumeration": "1.0.0"
+        },
+        "runtime": {
+          "ExternalEntities.Domain.dll": {}
+        }
+      },
+      "BrDateTimeUtils/1.0.0": {
+        "runtime": {
+          "BrDateTimeUtils.dll": {}
+        }
+      },
+      "RichEnumeration/1.0.0": {
+        "runtime": {
+          "RichEnumeration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExternalEntities.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrDateTimeUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RichEnumeration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,50 @@
+# docker image build . -t containerezequiel.azurecr.io/pcf:latest
+# az acr login --n containerezequiel 
+# docker push containerezequiel.azurecr.io/pcf:latest
+FROM node:14.17-alpine AS deps
+
+ARG NEXT_PUBLIC_PLATAFORMA_CLIENTE_API
+ARG PLATAFORMA_CLIENTE_APP
+ARG PLATAFORMA_CLIENTE_LANDING
+ARG NEXT_PUBLIC_IS_PRODUCTION
+ARG NEXT_PUBLIC_DOMAIN_COOKIE_BOT_ID
+ARG NEXT_PUBLIC_GOOGLE_API_KEY
+
+ENV NEXT_PUBLIC_PLATAFORMA_CLIENTE_API=$NEXT_PUBLIC_PLATAFORMA_CLIENTE_API
+ENV PLATAFORMA_CLIENTE_APP=$PLATAFORMA_CLIENTE_APP
+ENV PLATAFORMA_CLIENTE_LANDING=$PLATAFORMA_CLIENTE_LANDING
+ENV NEXT_PUBLIC_IS_PRODUCTION=$NEXT_PUBLIC_IS_PRODUCTION
+ENV NEXT_PUBLIC_DOMAIN_COOKIE_BOT_ID=$NEXT_PUBLIC_DOMAIN_COOKIE_BOT_ID
+ENV NEXT_PUBLIC_GOOGLE_API_KEY=$NEXT_PUBLIC_GOOGLE_API_KEY
+
+WORKDIR /app
+COPY package.json .
+COPY yarn.lock .
+COPY lerna.json .
+
+# could only copy build and package.json
+COPY tsconfig.base.json .
+COPY tsconfig.base-lib.json .
+COPY build-utils.ts .
+
+# could only copy build and package.json
+COPY ./packages/design-system ./packages/design-system
+COPY ./packages/design-system-icons ./packages/design-system-icons
+COPY ./packages/core ./packages/core
+COPY ./packages/config ./packages/config
+COPY ./packages/landing ./packages/landing
+
+RUN yarn install --pure-lockfile --non-interactive
+# could only copy build and package.json
+RUN yarn "build:deps"
+RUN yarn "build:landing"
+
+
+ENV NODE_ENV production
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
+EXPOSE 80
+
+WORKDIR /app/packages/landing
+
+CMD ["yarn", "next", "start", "-p", "80"]

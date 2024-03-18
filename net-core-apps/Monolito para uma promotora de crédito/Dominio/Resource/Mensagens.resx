@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Anexo_IdNaoEncontrado" xml:space="preserve">
+    <value>Anexo {0} não encontrado.</value>
+  </data>
+  <data name="Anexo_NaoForamEncontradosAnexosParaUsuario" xml:space="preserve">
+    <value>Não foram encontrados anexos para o usuario {0}.</value>
+  </data>
+  <data name="Anexo_TipoDocumentoAusenteOuInvalido" xml:space="preserve">
+    <value>Tipo de documento ausente ou inválido.</value>
+  </data>
+  <data name="Anexo_TipoDocumentoNaoLocalizado" xml:space="preserve">
+    <value>Não foi possível localizar o tipo de documento.</value>
+  </data>
+  <data name="Bancario_BancoNaoEncontrado" xml:space="preserve">
+    <value>Nenhum banco encontrado.</value>
+  </data>
+  <data name="Bancario_TipoContaNaoEncontrado" xml:space="preserve">
+    <value>Nenhum tipo de conta encontrado.</value>
+  </data>
+  <data name="Beneficio_RegistroNaoLocalizado" xml:space="preserve">
+    <value>Registro de consulta de benefício não localizado.</value>
+  </data>
+  <data name="Beneficio_TelefoneDeveSerCelular" xml:space="preserve">
+    <value>O telefone informado deve ser de celular.</value>
+  </data>
+  <data name="Cliente_EstadoCivilNaoEncontrado" xml:space="preserve">
+    <value>Estado civil não localizado.</value>
+  </data>
+  <data name="Cliente_GeneroNaoEncontrado" xml:space="preserve">
+    <value>Não foi possível localizar o gênero.</value>
+  </data>
+  <data name="Cliente_GrauInstrucaoNaoEncontrado" xml:space="preserve">
+    <value>Não foi possível localizar o grau de instrução.</value>
+  </data>
+  <data name="Usuario_erroEnvioEmail" xml:space="preserve">
+    <value>Não foi possível enviar o email de boas vindas para o usuário id: {0}.</value>
+  </data>
+  <data name="Cliente_ImportacaoJaRealizada" xml:space="preserve">
+    <value>Já houve importação de dados para este cliente.</value>
+  </data>
+  <data name="Cliente_NaoEncontrado" xml:space="preserve">
+    <value>Cliente não encontrado.</value>
+  </data>
+  <data name="Convenio_IdNaoEncontrado" xml:space="preserve">
+    <value>Convênio {0} não encontrado.</value>
+  </data>
+  <data name="Convenio_NenhumaEspecieBeneficioEncontrada" xml:space="preserve">
+    <value>Nenhuma espécie de benefício encontrada.</value>
+  </data>
+  <data name="Convenio_NenhumEncontrato" xml:space="preserve">
+    <value>Nenhum convênio encontrado.</value>
+  </data>
+  <data name="Convenio_NenhumOrgaoEncontrado" xml:space="preserve">
+    <value>Nenhum orgão de convênio encontrado.</value>
+  </data>
+  <data name="CNPJ_Invalido" xml:space="preserve">
+    <value>CNPJ inválido.</value>
+  </data>
+  <data name="Convenio_NenhumTipoFuncionalEncontrado" xml:space="preserve">
+    <value>Nenhum tipo funcional encontrado.</value>
+  </data>
+  <data name="Documento_JaExisteDeMesmoTipoVinculadoAoCliente" xml:space="preserve">
+    <value>Já existe um documento do mesmo tipo vinculado ao cliente.</value>
+  </data>
+  <data name="Documento_NaoLocalizado" xml:space="preserve">
+    <value>O documento não foi localizado.</value>
+  </data>
+  <data name="Documento_OrgaoEmissorNaoEncontrado" xml:space="preserve">
+    <value>Nenhum orgão emissor encontrado.</value>
+  </data>
+  <data name="Documento_OrgaoEmissorNaoFoiPossivelLocalizarApenasUm" xml:space="preserve">
+    <value>Não foi possível localizar apenas um órgão emissor com os parêmetros enviados.</value>
+  </data>
+  <data name="Endereco_NaoEncontrado" xml:space="preserve">
+    <value>O endereço não foi localizado.</value>
+  </data>
+  <data name="Endereco_PrincipalNaoLocalizado" xml:space="preserve">
+    <value>Endereço principal não localizado.</value>
+  </data>
+  <data name="IntencaoOperacao_IdNaoEncontrada" xml:space="preserve">
+    <value>Intenção de operação {0} não encontrada</value>
+  </data>
+  <data name="IntencaoOperacao_JaEstaNoPassoFinalDeSituacaoParaProduto" xml:space="preserve">
+    <value>Intencão de Operação já consta em seu passo final de situação ({0}) para o produto {1} e tipo de operação {2}.</value>
+  </data>
+  <data name="IntencaoOperacao_NenhumaEncontrada" xml:space="preserve">
+    <value>Nenhuma intenção de operação encontrada.</value>
+  </data>
+  <data name="IntencaoOperacao_SituacaoAtualNaoPermiteSituacaoExtraordinaria" xml:space="preserve">
+    <value>Situação de Intenção de Operação atual ({0}) não permite situações extraordinárias.</value>
+  </data>
+  <data name="IntencaoOperacao_SituacaoAtualSemPassoDeExcecaoParaProduto" xml:space="preserve">
+    <value>Situação atual ({0}) da Intenção de Operação não possui passo de exceção para o produto {1} e tipo de operação: {2}.</value>
+  </data>
+  <data name="IntencaoOperacao_SituacaoInvalidaParaProduto" xml:space="preserve">
+    <value>Situação de Intenção de Operação ({0}) inválida para o produto: {1} e tipo de operação: {2}.</value>
+  </data>
+  <data name="IntencaoOperacao_SituacaoNaoExcepcional" xml:space="preserve">
+    <value>Situação de Intenção de Operação não é excepcional: {0}.</value>
+  </data>
+  <data name="IntencaoOperacao_SituacaoNaoPermiteAlteracao" xml:space="preserve">
+    <value>A situação atual da intenção de operação (de #{0}) não permite alteração.</value>
+  </data>
+  <data name="Lead_IdNaoEncontrado" xml:space="preserve">
+    <value>Lead {0} não encontrado.</value>
+  </data>
+  <data name="Lead_NenhumaEncontrada" xml:space="preserve">
+    <value>Nehuma lead encontrada.</value>
+  </data>
+  <data name="Localizacao_MunicipioNaoFoipossivelLocalizarApenasUm" xml:space="preserve">
+    <value>Não foi possível localizar apenas um município com os parêmetros enviados.</value>
+  </data>
+  <data name="Localizacao_NenhumaEncontradaPeloCep" xml:space="preserve">
+    <value>Nenhuma localização encontrada para tal CEP.</value>
+  </data>
+  <data name="Localizacao_NenhumaUnidadeFederativaEcontrada" xml:space="preserve">
+    <value>Nenhuma unidade federativa encontrada.</value>
+  </data>
+  <data name="Localizacao_NenhumCepLocalizado" xml:space="preserve">
+    <value>Nenhum CEP pôde ser localizado com os parâmetros enviados.</value>
+  </data>
+  <data name="Localizacao_NenhumLogradouroEncontrado" xml:space="preserve">
+    <value>Nenhum logradouro encontrado.</value>
+  </data>
+  <data name="Localizacao_NenhumMunicipioEncontrado" xml:space="preserve">
+    <value>Nenhum município encontrado.</value>
+  </data>
+  <data name="Localizacao_TipoLogradouroNaoEncontrado" xml:space="preserve">
+    <value>Não foi possível localizar o tipo de logradouro.</value>
+  </data>
+  <data name="Login_Invalido" xml:space="preserve">
+    <value>Login e/ou senha inválidos.</value>
+  </data>
+  <data name="Login_RecursoTipoCredencialDiferente" xml:space="preserve">
+    <value>O tipo de credencial exigida pelo recurso é diferente do tipo de credencial do usuário.</value>
+  </data>
+  <data name="Login_UsuarioTenantDeveSerInformado" xml:space="preserve">
+    <value>O usuário tenant deve ser informado.</value>
+  </data>
+  <data name="Loja_IdNaoEncontrada" xml:space="preserve">
+    <value>Loja {0} não encontrada.</value>
+  </data>
+  <data name="Loja_NenhumaEncontrada" xml:space="preserve">
+    <value>Nenhuma loja encontrada.</value>
+  </data>
+  <data name="ParametroOperacao_IdNaoEncontrado" xml:space="preserve">
+    <value>Parâmetro Operação {0} não encontrado.</value>
+  </data>
+  <data name="ParametroOperacao_NenhumEcontrado" xml:space="preserve">
+    <value>Nenhum Parâmetro de Operação encontrado.</value>
+  </data>
+  <data name="Produto_IdNaoEncontrado" xml:space="preserve">
+    <value>Produto {0} não encontrado.</value>
+  </data>
+  <data name="Produto_NenhumEncontrado" xml:space="preserve">
+    <value>Nenhum produto encontrado.</value>
+  </data>
+  <data name="ProviderAutenticacao_NaoHouveSucessoNoRetornoDoProvedorAutenticacao" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor da autenticação.</value>
+  </data>
+  <data name="ProviderCliente_NaoHouveSucessoNoRetornoDoProvedorListarBeneficios" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de busca da lista de benefícios.</value>
+  </data>
+  <data name="ProviderCliente_NaoHouveSucessoNoRetornoDoProvedorObterAutorizacaoValida" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de busca da autorização do beneficiário.</value>
+  </data>
+  <data name="ProviderCliente_NaoHouveSucessoNoRetornoDoProvedorObterDadosCliente" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de obtenção dos dados do cliente.</value>
+  </data>
+  <data name="ProviderCliente_NaoHouveSucessoNoRetornoDoProvedorObterNovaAutorizacao" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de busca da nova autorização do beneficiário.</value>
+  </data>
+  <data name="ProviderConsignado_NaoHouveSucessoNoRetornoDoProvedorAutorizacaoBeneficiario" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor da autorização do beneficiário.</value>
+  </data>
+  <data name="ProviderConsignado_NaoHouveSucessoNoRetornoDoProvedorContratos" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de contratos.</value>
+  </data>
+  <data name="ProviderConsignado_NaoHouveSucessoNoRetornoDoProvedorSimulacao" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor da simulação.</value>
+  </data>
+  <data name="ProviderConsignado_NaoHouveSucessoNoRetornoDoProvedorSimulacaoRefinanciamento" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor da simulação de refinanciamento.</value>
+  </data>
+  <data name="ProviderPaperless_NaoHouveSucessoNoRetornoDoProvedorAssinaturaDocumento" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de assinatura do documento.</value>
+  </data>
+  <data name="ProviderPaperless_NaoHouveSucessoNoRetornoDoProvedorEnviarDocumentoParaAssinatura" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de envio de documento para assinatura eletrônica.</value>
+  </data>
+  <data name="ProviderPaperless_NaoHouveSucessoNoRetornoDoProvedorReenviarToken" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de reenvio do token da assinatura eletrônica.</value>
+  </data>
+  <data name="Rendimento_NaoLocalizado" xml:space="preserve">
+    <value>Rendimento não localizado.</value>
+  </data>
+  <data name="Rendimento_NaoLocalizadoParaUsuario" xml:space="preserve">
+    <value>Rendimento não localizado para o usuário.</value>
+  </data>
+  <data name="Rendimento_TipoInvalido" xml:space="preserve">
+    <value>Rendimento de tipo inválido.</value>
+  </data>
+  <data name="Simulacao_NaoRetornouResultadosComParametrosConfigurados" xml:space="preserve">
+    <value>A simulação não retornou resultados com os parâmetros configurados.</value>
+  </data>
+  <data name="Simulacao_NaoRetornouResultadosComParametrosInformados" xml:space="preserve">
+    <value>A simulação não retornou resultados com os parâmetros informados.</value>
+  </data>
+  <data name="ConsultaMargemSiape_Indisponivel" xml:space="preserve">
+    <value>Consulta de margem indisponível. Tente novamente.</value>
+  </data>
+  <data name="ConsultaMargemSiape_CadastroBancoPendente" xml:space="preserve">
+    <value>Você precisa cadastrar os dados do Banco.</value>
+  </data>
+  <data name="Conta_NaoLocalizada" xml:space="preserve">
+    <value>Conta não localizada.</value>
+  </data>
+  <data name="Conta_EmUso" xml:space="preserve">
+    <value>Não foi possivel excluir esta conta, existem rendimentos vinculados a ela.</value>
+  </data>
+  <data name="Solicitacao_EmAndamento" xml:space="preserve">
+    <value>Solicitação já encaminhada para o tipo de documento {0}.</value>
+  </data>
+  <data name="Telefone_ApenasUmPrincipalDeveSerInformado" xml:space="preserve">
+    <value>Apenas um telefone principal deve ser informado.</value>
+  </data>
+  <data name="Telefone_CelularNaolocalizado" xml:space="preserve">
+    <value>Não foi localizado um número de telefone celular.</value>
+  </data>
+  <data name="Telefone_NaoLocalizado" xml:space="preserve">
+    <value>Telefone não localizado.</value>
+  </data>
+  <data name="Telefone_PrincipalDeveSerInformado" xml:space="preserve">
+    <value>Ao menos um telefone principal deve ser informado.</value>
+  </data>
+  <data name="TemplateEmail_Ausente" xml:space="preserve">
+    <value>Template de e-mail ausente: {0}.</value>
+  </data>
+  <data name="TemplateNotificacao_Ausente" xml:space="preserve">
+    <value>Template de notificação ausente: {0}.</value>
+  </data>
+  <data name="TemplateBuilder_PropriedadeInexistente" xml:space="preserve">
+    <value>Propriedade inexistente em {0}: {1}.</value>
+  </data>
+  <data name="Notificacao_NaoEncontrada" xml:space="preserve">
+    <value>Notificação não encontrada ({0})</value>
+  </data>
+  <data name="TipoOperacao_IdNaoEncontrado" xml:space="preserve">
+    <value>Tipo de operação {0} não encontrado.</value>
+  </data>
+  <data name="TipoOperacao_NenhumEncontrado" xml:space="preserve">
+    <value>Nenhum tipo de operação encontrado.</value>
+  </data>
+  <data name="TipoVinculoInstitucional_NenhumEncontrado" xml:space="preserve">
+    <value>Nenhum vinculo encontrado.</value>
+  </data>
+  <data name="Usuario_DeveInformarEmailOuCpf" xml:space="preserve">
+    <value>Deve ser informado e-mail ou o CPF.</value>
+  </data>
+  <data name="Usuario_EmailNaoEncontrado" xml:space="preserve">
+    <value>Este e-mail não foi encontrado.</value>
+  </data>
+  <data name="Usuario_JaCadastrado" xml:space="preserve">
+    <value>Usuário já cadastrado no sistema.</value>
+  </data>
+  <data name="Usuario_NaoEncontrado" xml:space="preserve">
+    <value>Usuário não encontrado.</value>
+  </data>
+  <data name="Usuario_ProblemaEmailRecuperacaoSenha" xml:space="preserve">
+    <value>Houve um problema ao enviar o e-mail de recuperação de senha.</value>
+  </data>
+  <data name="Usuario_SenhaAtualNaoConfereComUsuario" xml:space="preserve">
+    <value>A senha atual informada não confere com a do usuário.</value>
+  </data>
+  <data name="Usuario_TokenExpirado" xml:space="preserve">
+    <value>Token expirado.</value>
+  </data>
+  <data name="Usuario_TokenInvalido" xml:space="preserve">
+    <value>Token inválido.</value>
+  </data>
+  <data name="Usuario_UsuarioLogadoDiferenteDoUsuarioOrigem" xml:space="preserve">
+    <value>O usuário logado é diferente do usuário de origem do registro.</value>
+  </data>
+  <data name="Beneficio_NaoHouveRetornoValidoProvedorAssinaturaTermoInss" xml:space="preserve">
+    <value>Não houve um retorno válido do provedor da assinatura do termo de autorização da consulta de benefício INSS.</value>
+  </data>
+  <data name="Beneficio_NaoFoiPossivelObterArquivoTermoAutorizacao" xml:space="preserve">
+    <value>Não foi possível obter o arquivo do termo de autorização.</value>
+  </data>
+  <data name="Beneficio_NaoFoiPossivelObterTermoAssinado" xml:space="preserve">
+    <value>Não foi possível obter o termo de consulta de benefício assinado.</value>
+  </data>
+  <data name="Beneficio_NaoHouveRetornoValidoAoAnexarTermoAssinado" xml:space="preserve">
+    <value>Não houve um retorno válido ao anexar o termo de consulta de benefício assinado.</value>
+  </data>
+  <data name="Beneficio_NaoHouveRetornoValidoNovaAutorizacaoConsultaBeneficio" xml:space="preserve">
+    <value>Não houve retorno válido de uma nova autorização de consulta do benefício.</value>
+  </data>
+  <data name="ProviderMaxMind_OcorreuErroAoTentarObterGeolocalizacao" xml:space="preserve">
+    <value>Ocorreu um erro na tentativa de obter a geolocalização.</value>
+  </data>
+  <data name="ProviderConsignado_NaoHouveSucessoNoRetornoDoProvedorSimulacaoDePortabilidade" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de simulação de portabilidade.</value>
+  </data>
+  <data name="Cliente_NaoHaRegistrodeAutorizacaoParaImportacaoDeDados" xml:space="preserve">
+    <value>Ainda não há registro de que o cliente tenha autorizado a importação de seus dados.</value>
+  </data>
+  <data name="IntencaoOperacao_InstituicaoFinanceiraOriginadoraNaoPermitePortabilidade" xml:space="preserve">
+    <value>A instituição financeira originadora não permite portabilidade.</value>
+  </data>
+  <data name="IntencaoOperacao_ApenasUmContratoDeveSerInformado" xml:space="preserve">
+    <value>Apenas um contrato deve ser informado.</value>
+  </data>
+  <data name="ProviderBemApi_NaoHouveSucessoNoRetornoDoProvedorDeConsultaDaSituacaoDaProposta" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de consulta da situação da proposta.</value>
+  </data>
+  <data name="Beneficio_RegistroDeConsultaDeBeneficioNaoLocalizada" xml:space="preserve">
+    <value>Registro de consulta de benefício não localizada.</value>
+  </data>
+  <data name="LoginSocial_GoogleClientIdInvalido" xml:space="preserve">
+    <value>O Client Id do Google token informado é inválido para a aplicação. Client Id informado: {0}.</value>
+  </data>
+  <data name="LoginSocial_GoogleEmitenteInvalido" xml:space="preserve">
+    <value>O Emitente do Google token informado é inválido. Emitente informado: {0}.</value>
+  </data>
+  <data name="LoginSocial_GoogleTokenExpirado" xml:space="preserve">
+    <value>O Google token informado está expirado. Data da expiração: {0}.</value>
+  </data>
+  <data name="LoginSocial_GoogleTokenInformadoInvalido" xml:space="preserve">
+    <value>O Google token informado é inválido.</value>
+  </data>
+  <data name="LoginSocial_GoogleTokenSemDataExpiracao" xml:space="preserve">
+    <value>O Google token informado não possui data de expiração.</value>
+  </data>
+  <data name="LoginSocial_NaoImplementado" xml:space="preserve">
+    <value>Não há implementação que contemple login com a rede social {0}.</value>
+  </data>
+  <data name="LoginSocial_FacebookTokenInformadoInvalido" xml:space="preserve">
+    <value>O Facebook token informado é inválido.</value>
+  </data>
+  <data name="LoginSocial_TokenInvalido" xml:space="preserve">
+    <value>Token de login social inválido.</value>
+  </data>
+  <data name="Configuracao_NaoEncontrada" xml:space="preserve">
+    <value>Configuração "{0}" inválida ou não localizada.</value>
+  </data>
+  <data name="TelefoneConfirmacao_AguardeXSegundosParaSolicitarReenvio" xml:space="preserve">
+    <value>Aguarde {0} segundos para solicitar o reenvio.</value>
+  </data>
+  <data name="TelefoneConfirmacao_ConfirmacaoPorTelefonemaSomenteParaTelefoneCelular" xml:space="preserve">
+    <value>O tipo de confirmação por SMS é aceito somente para telefone celular.</value>
+  </data>
+  <data name="TelefoneConfirmacao_FoiAtingidoLimiteDiarioReenviosToken" xml:space="preserve">
+    <value>Foi atingido o limite diário para reenvios do token utilizando esse método.</value>
+  </data>
+  <data name="TelefoneConfirmacao_JaConfirmado" xml:space="preserve">
+    <value>Telefone já foi confirmado.</value>
+  </data>
+  <data name="TelefoneConfirmacao_NaoFoiPossivelEnviarTokenPorSms" xml:space="preserve">
+    <value>Não foi possível enviar o token por SMS.</value>
+  </data>
+  <data name="TelefoneConfirmacao_NaoFoiPossivelEnviarTokenPorWhatsapp" xml:space="preserve">
+    <value>Não foi possível enviar o token por Whatsapp.</value>
+  </data>
+  <data name="TelefoneConfirmacao_NaoFoiPossivelEnviarTokenPorTorpedoVoz" xml:space="preserve">
+    <value>Não foi possível enviar o token por Torpedo de Voz.</value>
+  </data>
+  <data name="TelefoneConfirmacao_TokenInvalido" xml:space="preserve">
+    <value>Token inválido.</value>
+  </data>
+  <data name="TipoSolicitacaoConfirmacao_NaoImplementado" xml:space="preserve">
+    <value>Tipo de solicitação de confirmação não implementado.</value>
+  </data>
+  <data name="ProviderConsignado_NaoHouveSucessoNoRetornoDoProvedorConsultaMargemSiape" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de consulta de margem SIAPE.</value>
+  </data>
+  <data name="LoginSocial_AppleTokenInformadoInvalido" xml:space="preserve">
+    <value>O Apple Sign In token informado é inválido.</value>
+  </data>
+  <data name="SituacaoIntencaoOperacao_NenhumaEncontrada" xml:space="preserve">
+    <value>Nenhuma situação de intenção de operação encontrada.</value>
+  </data>
+  <data name="Telefone_IndicadoComoPrincipalNaoPodeSerRemovido" xml:space="preserve">
+    <value>Telefone indicado como principal não pode ser removido.</value>
+  </data>
+  <data name="Endereco_IndicadoComoPrincipalNaoPodeSerRemovido" xml:space="preserve">
+    <value>Endereco indicado como principal não pode ser removido.</value>
+  </data>
+  <data name="Usario_EmailConfirmado" xml:space="preserve">
+    <value>Seu e-mail já está confirmado.</value>
+  </data>
+  <data name="Usario_EmailNaoConfirmado" xml:space="preserve">
+    <value>Email ainda não confirmado. Enviamos um link para a confirmação no seu email.</value>
+  </data>
+  <data name="Falha_auth_token" xml:space="preserve">
+    <value>Houve uma falha ao autenticar o token, tente validar novament</value>
+  </data>
+  <data name="SeguroProdutos_Nao_Encontrado" xml:space="preserve">
+    <value>Nenhum produto de seguro foi encontrado .</value>
+  </data>
+  <data name="SeguroCobertura_Nao_Encontrado" xml:space="preserve">
+    <value>Nenhuma cobertura de seguro encontrada.</value>
+  </data>
+  <data name="Conjugue_NaoEncontrado" xml:space="preserve">
+    <value>Conjugue não foi encontrado.</value>
+  </data>
+  <data name="Error_Proposta" xml:space="preserve">
+    <value>Erro ao criar a proposta.</value>
+  </data>
+  <data name="Usuario_Sem_Proposta" xml:space="preserve">
+    <value>O usuário ainda não criou uma proposta.</value>
+  </data>
+  <data name="PassosProduto_StatusAnalise" xml:space="preserve">
+    <value>As informações contidas na sua solicitação serão submetidas a analise, sua solicitação está em andamento.</value>
+  </data>
+  <data name="PassosProduto_StatusAprovada" xml:space="preserve">
+    <value>Sua solicitação foi Aprovada e o valor será creditado.</value>
+  </data>
+  <data name="PassosProduto_StatusAssinaturaDigital" xml:space="preserve">
+    <value>Sua solicitação necessita de Assinatura Digital. A assinatura digital é a forma de comprovar sua identidade na internet.</value>
+  </data>
+  <data name="PassosProduto_StatusReprovada" xml:space="preserve">
+    <value>Sua solicitação foi Reprovada. Você poderá realizar uma nova solicitação.</value>
+  </data>
+  <data name="PassosProduto_StatusSolicitacao" xml:space="preserve">
+    <value>Os dados informados na solicitação foram recebidos com sucesso e sua solicitação será analisada.</value>
+  </data>
+  <data name="ProviderUnico_NaoHouveSucessoNoRetornoDoProvedorObterToken" xml:space="preserve">
+    <value>A obtenção do token de acesso não foi bem sucedida.</value>
+  </data>
+  <data name="Biometria_JaCadastrada" xml:space="preserve">
+    <value>Biometria já cadastrada no sistema.</value>
+  </data>
+  <data name="Anexo_TipoDocumentoSefileBiometriaNaoLocalizado" xml:space="preserve">
+    <value>Não foi possível localizar o anexo com a Selfie para a biometria.</value>
+  </data>
+  <data name="Biometria_NaoEncontrada" xml:space="preserve">
+    <value>Biometria não encontrada.</value>
+  </data>
+  <data name="ProvedorUnico_ErroAutenticarSefie" xml:space="preserve">
+    <value>Houve um problema ao autenticar a selfie.</value>
+  </data>
+  <data name="ProvedorUnico_SelfieNaoIdentificado" xml:space="preserve">
+    <value>Não foi possível identificar um rosto na imagem.</value>
+  </data>
+  <data name="ProviderUnico_NaoHouveSucessoNoRetornoDoProvedorAutenticacaoSelfie" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de autenticação de selfie.</value>
+  </data>
+  <data name="ProviderUnico_NaoHouveSucessoNoRetornoDoProvedorConsultaAutenticacaoSelfie" xml:space="preserve">
+    <value>Não houve sucesso no retorno do provedor de consulta autenticação de selfie.</value>
+  </data>
+  <data name="Selfie_NaoEncontrada" xml:space="preserve">
+    <value>Selfie não encontrada.</value>
+  </data>
+  <data name="Biometria_SelfieAuntenticadaSituacao" xml:space="preserve">
+    <value>A selfie anexada encontra-se com o status de: {0}.</value>
+  </data>
+  <data name="ProviderKaledo_NaoHouveSucessoNoRetornoDoProvedorCriarAuntenticarUsuario" xml:space="preserve">
+    <value>Infelizmente não conseguimos nos contectar com o Clube neste momento, tente novamente em alguns minutos.</value>
+  </data>
+  <data name="Cliente_ClubeBeneficioOperacaoInativa" xml:space="preserve">
+    <value>O Clube de Beneficios está liberado para clientes com operações ativas com a Bem Promotora, adquira agora mesmo um de nossos produtos e utilize mais esse benefício.".</value>
+  </data>
+  <data name="Convenio_NenhumMarinhaCargoEncontrado" xml:space="preserve">
+    <value>Nenhum cargo da marinha encontrado</value>
+  </data>
+  <data name="Convenio_NenhumMarinhaTipoFuncionalEncontrado" xml:space="preserve">
+    <value>Nenhum tipo funcional da marinha encontrado.</value>
+  </data>
+  <data name="Convenio_NenhumAeronauticaCargoEncontrado" xml:space="preserve">
+    <value>Nenhum cargo da aeronáutica encontrado.</value>
+  </data>
+  <data name="Convenio_NenhumAeronauticaTipoFuncionalEncontrado" xml:space="preserve">
+    <value>Nenhum tipo funcional da aeronáutica encontrado.</value>
+  </data>
+  <data name="Rendimento_ConvenioInvalido" xml:space="preserve">
+    <value>Rendimento com convênio inválido.</value>
+  </data>
+  <data name="Rendimento_TipoMarinha_CargoNaoInformado" xml:space="preserve">
+    <value>Para o Tipo Funcional servidor, deve ser preenchido o cargo.</value>
+  </data>
+  <data name="Rendimento_TipoAeronautica_CargoNaoInformado" xml:space="preserve">
+    <value>Para o Tipo Funcional servidor, deve ser preenchido o cargo.</value>
+  </data>
+  <data name="Rendimento_TipoAeronautica_TipoFuncionalNaoInformado" xml:space="preserve">
+    <value>Rendimento do tipo aeronáutica deve ser infomado o tipo funcional.</value>
+  </data>
+  <data name="Rendimento_TipoMarinha_TipoFuncionalNaoInformado" xml:space="preserve">
+    <value>Rendimento do tipo marinha deve ser infomado o tipo funcional.</value>
+  </data>
+</root>

@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62827",
+      "sslPort": 44394
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "EXTERNALENTITIES_ConnectionString": "Data Source=localhost;port=3306;Database=Capwise.ExternalEntities;uid=root;password=a608e2b2Q!"
+      }
+    },
+    "Dev": {
+      "commandName": "Project",
+      "launchUrl": "api/healthcheck",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "EXTERNALENTITIES_ConnectionString": "Data Source=localhost;port=3306;Database=Capwise.ExternalEntities;uid=root;password=a608e2b2Q!",
+        "IDENTITY_SERVICE_URL": "http://localhost:5000/",
+        "IDENTITY_SERVICE_CLIENT_SECRET": "75139217L0-C9MS-21OW-K8B0-895417E6OPT21110",
+        "RMQ_EXCHANGENAME": "Topic_Exchange",
+        "business_updated": "business.updated",
+        "auth_user_created": "auth.user.created",
+        "ExternalEntities_Auth_User_Created_Queue": "ExternalEntities_Auth_User_Created_Queue",
+        "ExternalEntities_Auth_User_Updated_Cpf_Queue": "ExternalEntities_Auth_User_Updated_Cpf_Queue",
+        "business_created": "business.created",
+        "RMQ_USERNAME": "arthur",
+        "RMQ_VHOST": "forum",
+        "RMQ_HOST": "localhost",
+        "RMQ_PORT": "5672",
+        "RMQ_PASSWORD": "a608e2b2",
+        "TEST_CPFS": "569.656.540-90;239.922.300-40;021.909.270-21",
+        "QUOD_URL": "https://api.empresas.quod.com.br",
+        "QUOD_API_AUTH_PW": "Quod@2022",
+        "QUOD_API_AUTH_USER": "test_responder@esp",
+        "RBM_SCR_URL": "https://scr.api-hbi.com.br",
+        "RBM_SCR_API_AUTH_TOKEN": "7f5ac6d7-c4a9-4a40-9233-742469e83c7e",
+        "RBM_SCR_API_COMPANY_USER": "46813256000119",
+        "USE_SCR": "false",
+        "auth_user_updated_cpf": "auth.user.updated.cpf",
+        "ExternalEntities_Business_Updated_Queue": "ExternalEntities_Business_Updated_Queue",
+        "ExternalEntities_Business_Created_Queue": "ExternalEntities_Business_Created_Queue",
+        "IDENTITY_SERVICE_CLIENT_ID": "externalentities_api"
+      },
+      "applicationUrl": "https://localhost:5025;http://localhost:5024"
+    }
+  }
+}

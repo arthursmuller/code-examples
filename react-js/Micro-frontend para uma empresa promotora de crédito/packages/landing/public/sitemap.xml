@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/aposentados-ou-pensionistas</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.356Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/atendimento</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/bemsign</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/cartao-consignado</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/condicoesgeraisbanrisul</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/consultar-proposta</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/credito-consignado</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/documento-quitacao</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/funcionario-publico</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/governanca-corporativa</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net</loc><changefreq>daily</changefreq><priority>1</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/lgpd</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/login</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/politica-de-privacidade</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/seja-um-correspondente-bancario</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/sobre-a-bem</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/termos-e-condicoes</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/titulo-de-capitalizacao</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/trabalhe-conosco</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/iframe/campanha</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+<url><loc>https://plataformacliente-dev-docker.azurewebsites.net/iframe/simulacao-proposta</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-26T13:45:27.357Z</lastmod></url>
+</urlset>

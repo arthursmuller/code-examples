@@ -1,0 +1,25 @@
+{
+  "retorno": {
+    "id": 2,
+    "nome": "Fagner Schwalm",
+    "cpf": "46705821868",
+    "dataNascimento": "1991-12-20T00:00:00",
+    "filiacao1": "Nome do Pai",
+    "filiacao2": "Nome da Mãe",
+    "deficienteVisual": false,
+    "email": "placeholder@todo.todo",
+    "importacaoDadosAutorizada": false,
+    "dataAutorizacaoImportacaoDados": null,
+    "genero": { "id": 2, "sigla": "M", "descricao": "MASCULINO" },
+    "estadoCivil": { "id": 4, "descricao": "SOLTEIRO", "sigla": "S" },
+    "grauInstrucao": { "id": 5, "descricao": "SUPERIOR COMPLETO" },
+    "cidadeNatal": {
+      "id": 3597,
+      "descricao": "PORTO ALEGRE",
+      "uf": { "id": 7, "nome": "Rio Grande do Sul", "sigla": "RS" }
+    },
+    "loja": null
+  },
+  "alertas": [],
+  "erros": []
+}

@@ -1,0 +1,188 @@
+{
+  "requests": [
+    {
+      "url": "/g/collect?v=2&tid=G-ZRYF3MHFBB&gtm=2oe840&_p=861529137&sr=2560x1440&_gaz=1&ul=en-us&cid=1331005670.1628277395&_s=1&dl=http%3A%2F%2Flocalhost%2Fcondicoes-gerais-banrisul&dt=Simula%C3%A7%C3%A3o%20de%20Empr%C3%A9stimo%20Consignado%20-%20Bem%20Promotora&sid=1628511976&sct=2&seg=0&en=page_view&_ss=1",
+      "request": {
+        "method": "POST",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZRYF3MHFBB&gtm=2oe840&_p=861529137&sr=2560x1440&_gaz=1&ul=en-us&cid=1331005670.1628277395&_s=1&dl=http%3A%2F%2Flocalhost%2Fcondicoes-gerais-banrisul&dt=Simula%C3%A7%C3%A3o%20de%20Empr%C3%A9stimo%20Consignado%20-%20Bem%20Promotora&sid=1628511976&sct=2&seg=0&en=page_view&_ss=1",
+        "httpVersion": "h2",
+        "cookies": [],
+        "headers": [
+          { "name": ":method", "value": "POST" },
+          { "name": ":authority", "value": "analytics.google.com" },
+          { "name": ":scheme", "value": "https" },
+          {
+            "name": ":path",
+            "value": "/g/collect?v=2&tid=G-ZRYF3MHFBB&gtm=2oe840&_p=861529137&sr=2560x1440&_gaz=1&ul=en-us&cid=1331005670.1628277395&_s=1&dl=http%3A%2F%2Flocalhost%2Fcondicoes-gerais-banrisul&dt=Simula%C3%A7%C3%A3o%20de%20Empr%C3%A9stimo%20Consignado%20-%20Bem%20Promotora&sid=1628511976&sct=2&seg=0&en=page_view&_ss=1"
+          },
+          { "name": "content-length", "value": "0" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Chromium\";v=\"93\", \" Not;A Brand\";v=\"99\""
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4576.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"macOS\"" },
+          { "name": "content-type", "value": "text/plain;charset=UTF-8" },
+          { "name": "accept", "value": "*/*" },
+          { "name": "origin", "value": "http://localhost:3001" },
+          { "name": "sec-fetch-site", "value": "cross-site" },
+          { "name": "sec-fetch-mode", "value": "no-cors" },
+          { "name": "sec-fetch-dest", "value": "empty" },
+          { "name": "referer", "value": "http://localhost:3001/" },
+          { "name": "accept-encoding", "value": "gzip, deflate, br" },
+          { "name": "accept-language", "value": "en-US,en;q=0.9" },
+          { "name": "host", "value": "analytics.google.com" }
+        ],
+        "queryString": [
+          { "name": "v", "value": "2" },
+          { "name": "tid", "value": "G-ZRYF3MHFBB" },
+          { "name": "gtm", "value": "2oe840" },
+          { "name": "_p", "value": "861529137" },
+          { "name": "sr", "value": "2560x1440" },
+          { "name": "_gaz", "value": "1" },
+          { "name": "ul", "value": "en-us" },
+          { "name": "cid", "value": "1331005670.1628277395" },
+          { "name": "_s", "value": "1" },
+          {
+            "name": "dl",
+            "value": "http://localhost/condicoes-gerais-banrisul"
+          },
+          {
+            "name": "dt",
+            "value": "Simulação de Empréstimo Consignado - Bem Promotora"
+          },
+          { "name": "sid", "value": "1628511976" },
+          { "name": "sct", "value": "2" },
+          { "name": "seg", "value": "0" },
+          { "name": "en", "value": "page_view" },
+          { "name": "_ss", "value": "1" }
+        ],
+        "headersSize": 936,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {}
+    },
+    {
+      "url": "/g/collect?v=2&tid=G-ZRYF3MHFBB&cid=1331005670.1628277395&gtm=2oe840&aip=1",
+      "request": {
+        "method": "POST",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-ZRYF3MHFBB&cid=1331005670.1628277395&gtm=2oe840&aip=1",
+        "httpVersion": "h2",
+        "cookies": [],
+        "headers": [
+          { "name": ":method", "value": "POST" },
+          { "name": ":authority", "value": "stats.g.doubleclick.net" },
+          { "name": ":scheme", "value": "https" },
+          {
+            "name": ":path",
+            "value": "/g/collect?v=2&tid=G-ZRYF3MHFBB&cid=1331005670.1628277395&gtm=2oe840&aip=1"
+          },
+          { "name": "content-length", "value": "0" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Chromium\";v=\"93\", \" Not;A Brand\";v=\"99\""
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4576.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"macOS\"" },
+          { "name": "content-type", "value": "text/plain;charset=UTF-8" },
+          { "name": "accept", "value": "*/*" },
+          { "name": "origin", "value": "http://localhost:3001" },
+          { "name": "sec-fetch-site", "value": "cross-site" },
+          { "name": "sec-fetch-mode", "value": "no-cors" },
+          { "name": "sec-fetch-dest", "value": "empty" },
+          { "name": "referer", "value": "http://localhost:3001/" },
+          { "name": "accept-encoding", "value": "gzip, deflate, br" },
+          { "name": "accept-language", "value": "en-US,en;q=0.9" },
+          { "name": "host", "value": "stats.g.doubleclick.net" }
+        ],
+        "queryString": [
+          { "name": "v", "value": "2" },
+          { "name": "tid", "value": "G-ZRYF3MHFBB" },
+          { "name": "cid", "value": "1331005670.1628277395" },
+          { "name": "gtm", "value": "2oe840" },
+          { "name": "aip", "value": "1" }
+        ],
+        "headersSize": 720,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {}
+    },
+    {
+      "url": "/g/collect?v=2&tid=G-ZRYF3MHFBB&gtm=2oe840&_p=861529137&sr=2560x1440&ul=en-us&cid=1331005670.1628277395&_s=2&dl=http%3A%2F%2Flocalhost%2Fcondicoes-gerais-banrisul&dt=Simula%C3%A7%C3%A3o%20de%20Empr%C3%A9stimo%20Consignado%20-%20Bem%20Promotora&sid=1628511976&sct=2&seg=0&en=scroll&_et=639&epn.percent_scrolled=90",
+      "request": {
+        "method": "POST",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZRYF3MHFBB&gtm=2oe840&_p=861529137&sr=2560x1440&ul=en-us&cid=1331005670.1628277395&_s=2&dl=http%3A%2F%2Flocalhost%2Fcondicoes-gerais-banrisul&dt=Simula%C3%A7%C3%A3o%20de%20Empr%C3%A9stimo%20Consignado%20-%20Bem%20Promotora&sid=1628511976&sct=2&seg=0&en=scroll&_et=639&epn.percent_scrolled=90",
+        "httpVersion": "h2",
+        "cookies": [],
+        "headers": [
+          { "name": ":method", "value": "POST" },
+          { "name": ":authority", "value": "analytics.google.com" },
+          { "name": ":scheme", "value": "https" },
+          {
+            "name": ":path",
+            "value": "/g/collect?v=2&tid=G-ZRYF3MHFBB&gtm=2oe840&_p=861529137&sr=2560x1440&ul=en-us&cid=1331005670.1628277395&_s=2&dl=http%3A%2F%2Flocalhost%2Fcondicoes-gerais-banrisul&dt=Simula%C3%A7%C3%A3o%20de%20Empr%C3%A9stimo%20Consignado%20-%20Bem%20Promotora&sid=1628511976&sct=2&seg=0&en=scroll&_et=639&epn.percent_scrolled=90"
+          },
+          { "name": "content-length", "value": "0" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Chromium\";v=\"93\", \" Not;A Brand\";v=\"99\""
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4576.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"macOS\"" },
+          { "name": "content-type", "value": "text/plain;charset=UTF-8" },
+          { "name": "accept", "value": "*/*" },
+          { "name": "origin", "value": "http://localhost:3001" },
+          { "name": "sec-fetch-site", "value": "cross-site" },
+          { "name": "sec-fetch-mode", "value": "no-cors" },
+          { "name": "sec-fetch-dest", "value": "empty" },
+          { "name": "referer", "value": "http://localhost:3001/" },
+          { "name": "accept-encoding", "value": "gzip, deflate, br" },
+          { "name": "accept-language", "value": "en-US,en;q=0.9" },
+          { "name": "host", "value": "analytics.google.com" }
+        ],
+        "queryString": [
+          { "name": "v", "value": "2" },
+          { "name": "tid", "value": "G-ZRYF3MHFBB" },
+          { "name": "gtm", "value": "2oe840" },
+          { "name": "_p", "value": "861529137" },
+          { "name": "sr", "value": "2560x1440" },
+          { "name": "ul", "value": "en-us" },
+          { "name": "cid", "value": "1331005670.1628277395" },
+          { "name": "_s", "value": "2" },
+          {
+            "name": "dl",
+            "value": "http://localhost/condicoes-gerais-banrisul"
+          },
+          {
+            "name": "dt",
+            "value": "Simulação de Empréstimo Consignado - Bem Promotora"
+          },
+          { "name": "sid", "value": "1628511976" },
+          { "name": "sct", "value": "2" },
+          { "name": "seg", "value": "0" },
+          { "name": "en", "value": "scroll" },
+          { "name": "_et", "value": "639" },
+          { "name": "epn.percent_scrolled", "value": "90" }
+        ],
+        "headersSize": 952,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {}
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+trigger:
+  paths:
+    include:
+    - packages/app/*
+    - packages/design-system/*
+    - packages/design-system-icons/*
+    - packages/core/*
+    exclude:
+    - packages/app/README.md
+  branches:
+    include:
+    - master
+    - homolog
+    - dev
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+- name: plataformaclienteapi
+  value: $(PLATAFORMA_CLIENTE_API_DEV)
+- name: plataformaclientelanding
+  value: $(REACT_APP_PLATAFORMA_CLIENTE_LANDING)
+- name: isproduction
+  value: true
+
+steps:
+- script: |
+    echo '##vso[task.setvariable variable=plataformaclienteapi]$(PLATAFORMA_CLIENTE_API_HML)'
+    echo '##vso[task.setvariable variable=plataformaclientelanding]$(PLATAFORMA_CLIENTE_LANDING_HML)'
+  condition: eq(variables['Build.SourceBranchName'], 'homolog')
+  displayName: 'Set variables to homolog'
+
+- script: |
+    echo '##vso[task.setvariable variable=plataformaclienteapi]$(PLATAFORMA_CLIENTE_API_PROD)'
+    echo '##vso[task.setvariable variable=plataformaclientelanding]$(PLATAFORMA_CLIENTE_LANDING_PROD)'
+  condition: eq(variables['Build.SourceBranchName'], 'master')
+  displayName: 'Set variables to production'
+
+- script: |
+    echo REACT_APP_PLATAFORMA_CLIENTE_API = $(plataformaclienteapi)
+    echo REACT_APP_IS_PRODUCTION = $(isproduction)
+    echo REACT_APP_DOMAIN_COOKIE_BOT_ID = $(REACT_APP_DOMAIN_COOKIE_BOT_ID)
+    echo REACT_APP_PLATAFORMA_CLIENTE_LANDING = $(plataformaclientelanding)
+  displayName: 'Show variable values'
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '14.x'
+  displayName: 'Install: Node.js'
+
+- task: Yarn@3
+  displayName: 'Install: dependencies'
+  inputs:
+    arguments: 'install --pure-lockfile --network-timeout 100000'
+
+- task: Yarn@3
+  displayName: 'Build: Repo dependencies'
+  continueOnError: false
+  inputs:
+    arguments: 'build:deps'
+
+- task: Yarn@3
+  displayName: 'Build: Repo dependencies - liveness'
+  continueOnError: false
+  inputs:
+    arguments: 'build:liveness'
+
+- task: Yarn@3
+  displayName: 'Build: App dependencies'
+  continueOnError: false
+  env:
+    REACT_APP_IS_PRODUCTION: $(isproduction)
+    REACT_APP_PLATAFORMA_CLIENTE_API: $(plataformaclienteapi)
+    REACT_APP_PLATAFORMA_CLIENTE_LANDING: $(plataformaclientelanding)
+    REACT_APP_DOMAIN_COOKIE_BOT_ID: $(REACT_APP_DOMAIN_COOKIE_BOT_ID)
+  inputs:
+    arguments: 'build:app'
+
+- task: Yarn@3
+  displayName: 'Yarn Build Storybook'
+  continueOnError: true
+  condition: eq(variables['Build.SourceBranchName'], 'dev')
+  inputs:
+    arguments: 'build:storybook'
+
+- task: CopyFiles@2
+  displayName: Copying storybook files to the build folder if dev
+  condition: eq(variables['Build.SourceBranchName'], 'dev')
+  continueOnError: true
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)/packages/design-system/storybook-static'
+    TargetFolder: '$(Build.BinariesDirectory)/storybook-static'
+
+- task: CopyFiles@2
+  displayName: 'Copy: landing build files'
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)/packages/app/build'
+    TargetFolder: '$(Build.BinariesDirectory)'
+
+- task: CopyFiles@2
+  displayName: 'Copy: landing public files'
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)/packages/landing/public'
+    TargetFolder: '$(Build.BinariesDirectory)/public'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

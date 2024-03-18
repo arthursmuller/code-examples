@@ -1,0 +1,25 @@
+{
+  "short_name": "Bem Promotora",
+  "name": "Bem Promotora - Especialista em Crédito e Empréstimo Consignado",
+  "icons": [
+    {
+      "src": "favicon-1.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon-1.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon-1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#162776",
+  "background_color": "#162776"
+}

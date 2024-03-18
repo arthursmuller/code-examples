@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component MenuItem from Table Action should match with snapshot 1`] = `
+<div>
+  <button
+    class="chakra-menu__menuitem css-1jti93q"
+    data-index="0"
+    id="menu-list-2-menuitem-3"
+    role="menuitem"
+    tabindex="-1"
+    type="button"
+  >
+    text
+  </button>
+</div>
+`;

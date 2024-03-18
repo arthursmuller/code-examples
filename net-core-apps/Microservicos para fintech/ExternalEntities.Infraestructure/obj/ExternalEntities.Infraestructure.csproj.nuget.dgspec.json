@@ -1,0 +1,779 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Infraestructure\\ExternalEntities.Infraestructure.csproj": {}
+  },
+  "projects": {
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\AuthenticationProvider\\AuthenticationProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\AuthenticationProvider\\AuthenticationProvider.csproj",
+        "projectName": "AuthenticationProvider",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\AuthenticationProvider\\AuthenticationProvider.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\AuthenticationProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BacenProvider\\BacenProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BacenProvider\\BacenProvider.csproj",
+        "projectName": "BacenProvider",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BacenProvider\\BacenProvider.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BacenProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrDateTimeUtils\\BrDateTimeUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrDateTimeUtils\\BrDateTimeUtils.csproj",
+        "projectName": "BrDateTimeUtils",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrDateTimeUtils\\BrDateTimeUtils.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrDateTimeUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrValidators\\BrValidators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrValidators\\BrValidators.csproj",
+        "projectName": "BrValidators",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrValidators\\BrValidators.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrValidators\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj",
+        "projectName": "HttpClientHelper",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\QuodProvider\\QuodProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\QuodProvider\\QuodProvider.csproj",
+        "projectName": "QuodProvider",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\QuodProvider\\QuodProvider.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\QuodProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\HttpClientHelper\\HttpClientHelper.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj",
+        "projectName": "RichEnumeration",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Domain\\ExternalEntities.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Domain\\ExternalEntities.Domain.csproj",
+        "projectName": "ExternalEntities.Domain",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Domain\\ExternalEntities.Domain.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrDateTimeUtils\\BrDateTimeUtils.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrDateTimeUtils\\BrDateTimeUtils.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\RichEnumeration\\RichEnumeration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Infraestructure\\ExternalEntities.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Infraestructure\\ExternalEntities.Infraestructure.csproj",
+        "projectName": "ExternalEntities.Infraestructure",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Infraestructure\\ExternalEntities.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\AuthenticationProvider\\AuthenticationProvider.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\AuthenticationProvider\\AuthenticationProvider.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BacenProvider\\BacenProvider.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BacenProvider\\BacenProvider.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrValidators\\BrValidators.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\BrValidators\\BrValidators.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\QuodProvider\\QuodProvider.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\BuildingBlocks\\QuodProvider\\QuodProvider.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Domain\\ExternalEntities.Domain.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\ExternalEntities.Domain\\ExternalEntities.Domain.csproj"
+              },
+              "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerRabbitMq\\MessageBrokerRabbitMq.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerRabbitMq\\MessageBrokerRabbitMq.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "LinqKit.Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerCore\\MessageBrokerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerCore\\MessageBrokerCore.csproj",
+        "projectName": "MessageBrokerCore",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerCore\\MessageBrokerCore.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerRabbitMq\\MessageBrokerRabbitMq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerRabbitMq\\MessageBrokerRabbitMq.csproj",
+        "projectName": "MessageBrokerRabbitMq",
+        "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerRabbitMq\\MessageBrokerRabbitMq.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerRabbitMq\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerCore\\MessageBrokerCore.csproj": {
+                "projectPath": "D:\\dev_Projects\\capwise\\net-core-apps\\MessageBrokerCore\\MessageBrokerCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

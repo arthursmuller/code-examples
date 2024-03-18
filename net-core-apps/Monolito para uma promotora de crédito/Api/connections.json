@@ -1,0 +1,9 @@
+{
+    "Connections": [
+        {
+            "Nome": "SICRED",
+            "Tipo": "string",
+            "Valor": "Data Source=10.90.7.28;Database=DBSettings;User Id=sis_api;Password=MasterPuppets123;"
+        }
+    ]
+}

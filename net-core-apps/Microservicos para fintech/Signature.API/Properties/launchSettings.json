@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:2285",
+      "sslPort": 44301
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Dev": {
+      "commandName": "Project",
+      "launchUrl": "api/healthcheck",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SIGNATURE_ConnectionString": "Data Source=localhost;port=3306;Database=Capwise.Signature;uid=root;password=a608e2b2Q!",
+        "IDENTITY_SERVICE_URL": "http://localhost:5000/",
+        "IDENTITY_SERVICE_CLIENT_ID": "signature_api",
+        "IDENTITY_SERVICE_CLIENT_SECRET": "75139217L0-C9MS-21OW-K8B0-895417E6OPT21110",
+        "RMQ_USERNAME": "arthur",
+        "RMQ_PASSWORD": "a608e2b2",
+        "RMQ_HOST": "localhost",
+        "RMQ_PORT": "5672",
+        "RMQ_VHOST": "forum",
+        "RMQ_EXCHANGENAME": "Topic_Exchange",
+        "SIGNPDF_SERVICE_URL": "http://localhost:2090/",
+        "VERIFYPDF_SERVICE_URL": "http://localhost:2091/",
+        "STORAGE_SERVICE_URL_PATH": "http://localhost:5012",
+        "STORAGE_SERVICE_URL_ENDPOINT": "/api/storage/v1",
+        "STORAGE_CONTAINER_PRODUCT_CONTRACT_CERTIFICATES": "productcontractcertificates",
+        "STORAGE_CONTAINER_USER_SIGNATURE_PICTURES": "usersignaturepictures",
+        "STORAGE_CONTAINER_USER_SIGNATURE_DRAWINGS": "usersignaturedrawings",
+        "storage_document_create": "storage.document.create",
+        "storage_document_update": "storage.document.update",
+        "storage_document_delete": "storage.document.delete",
+        "signature_create": "signature.create",
+        "signature_certificate_created": "signature.certificate.created",
+        "Signature_Create_Queue": "Signature_Create_Queue",
+        "signature_sign_document": "signature.sign.document",
+        "Signature_Sign_Document_Queue": "Signature_Sign_Document_Queue",
+        "signature_override": "signature.override",
+        "Signature_Override_Queue": "Signature_Override_Queue",
+        "signature_delete": "signature.delete",
+        "Signature_Delete_Queue": "Signature_Delete_Queue"
+      },
+      "applicationUrl": "https://localhost:5019;http://localhost:5018"
+    }
+  }
+}

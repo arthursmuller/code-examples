@@ -1,0 +1,3478 @@
+{
+  "requests": [
+    {
+      "url": "/feature-flags",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/feature-flags",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 575,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": [
+          { "habilitado": true, "chave": "TEST" },
+          { "habilitado": true, "chave": "NEXT_PUBLIC_FEATURE_ACESSAR_CONTA" },
+          { "habilitado": true, "chave": "ACESSAR_CONTA" },
+          { "habilitado": true, "chave": "SIMULAR_NOVO" },
+          { "habilitado": true, "chave": "WHATSAPP" },
+          { "habilitado": true, "chave": "CRIAR_CONTA" },
+          { "habilitado": true, "chave": "LOGIN_SOCIAL" },
+          { "habilitado": true, "chave": "PORTABILIDADE" },
+          { "habilitado": true, "chave": "CARTAO" },
+          { "habilitado": true, "chave": "REFIN" },
+          { "habilitado": true, "chave": "INCLUSAO_PROPOSTA_NOVA" }
+        ],
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/login",
+      "request": {
+        "method": "POST",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/login",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          { "name": "Content-Length", "value": "54" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          { "name": "Content-Type", "value": "application/json;charset=UTF-8" },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "postData": {
+          "mimeType": "application/json;charset=UTF-8",
+          "text": "{\"email\":\"fagnerschwalm@gmail.com\",\"senha\":\"Bem@1234\"}",
+          "params": []
+        },
+        "headersSize": 634,
+        "bodySize": 54
+      },
+      "requestData": {
+        "email": "fagnerschwalm@gmail.com",
+        "senha": "Bem@1234"
+      },
+      "response": {
+        "retorno": {
+          "nome": "Fagner Schwalm",
+          "email": "fagnerschwalm@gmail.com",
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+        },
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/produtos/consignado/informacoes-produto-operacao/refin",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/produtos/consignado/informacoes-produto-operacao/refin",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 888,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": { "idProduto": 1, "idTipoOperacao": 2 },
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/clientes/autenticado/rendimentos",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/clientes/autenticado/rendimentos",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 866,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": [
+          {
+            "id": 93,
+            "convenio": {
+              "id": 1,
+              "nome": "INSS DATAPREV",
+              "codigo": "000020",
+              "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+            },
+            "convenioOrgao": {
+              "id": 133,
+              "codigo": "00001",
+              "nome": "INSS DATAPREV",
+              "cnpj": "05165423000185",
+              "uf": ""
+            },
+            "uf": { "id": 7, "nome": "Rio Grande do Sul", "sigla": "RS" },
+            "valorRendimento": 3500,
+            "inssEspecieBeneficio": {
+              "id": 26,
+              "descricao": "Amparo assistencial ao idoso (Lei no 8.742/93)",
+              "codigo": "88"
+            },
+            "siapeTipoFuncional": null,
+            "matricula": "1234567893",
+            "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+            "dataAdmissao": "0001-01-01T00:00:00",
+            "dataLiberacaoConsultaMargem": null,
+            "matriculaInstituidor": null,
+            "nomeInstituidor": null,
+            "possuiRepresentacaoPorProcurador": false,
+            "margemDisponivel": null,
+            "margemDisponivelCartao": null,
+            "contaCliente": {
+              "idContaCliente": 14,
+              "idBanco": 54,
+              "idTipoConta": 1,
+              "idFormaRecebimento": 1,
+              "agencia": "0839",
+              "conta": "3515199505",
+              "banco": {
+                "id": 54,
+                "nome": "BANCO DO ESTADO DO RIO GRANDE DO SUL SA",
+                "codigo": "0041",
+                "permitePortabilidade": false
+              },
+              "tipoConta": { "id": 1, "nome": "Normal", "sigla": "N" },
+              "formaRecebimento": { "id": 1, "descricao": "TED" }
+            },
+            "contaClienteRecebimento": {
+              "idContaCliente": 14,
+              "idBanco": 54,
+              "idTipoConta": 1,
+              "idFormaRecebimento": 1,
+              "agencia": "0839",
+              "conta": "3515199505",
+              "banco": {
+                "id": 54,
+                "nome": "BANCO DO ESTADO DO RIO GRANDE DO SUL SA",
+                "codigo": "0041",
+                "permitePortabilidade": false
+              },
+              "tipoConta": { "id": 1, "nome": "Normal", "sigla": "N" },
+              "formaRecebimento": { "id": 1, "descricao": "TED" }
+            }
+          }
+        ],
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/produtos/consignado/contratos",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/produtos/consignado/contratos",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 863,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": null,
+        "alertas": [
+          {
+            "codigo": 0,
+            "mensagem": "Ainda não há registro de que o cliente tenha autorizado a importação de seus dados.",
+            "tipo": 1
+          }
+        ],
+        "erros": []
+      }
+    },
+    {
+      "url": "/clientes/autenticado/notificacoes",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/clientes/autenticado/notificacoes",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 867,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": { "retorno": [], "alertas": [], "erros": [] }
+    },
+    {
+      "url": "/clientes/autenticado",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/clientes/autenticado",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 854,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": {
+          "id": 2,
+          "nome": "fagner schwalm",
+          "cpf": "46705821868",
+          "dataNascimento": "1991-12-20T00:00:00",
+          "filiacao1": "Nome do Pai",
+          "filiacao2": "Nome da",
+          "deficienteVisual": false,
+          "email": "placeholder@todo.todo",
+          "importacaoDadosAutorizada": false,
+          "dataAutorizacaoImportacaoDados": null,
+          "importacaoDadosSolicitada": false,
+          "dataSolicitacaoImportacaoDados": null,
+          "genero": { "id": 2, "sigla": "M", "descricao": "MASCULINO" },
+          "estadoCivil": { "id": 4, "descricao": "SOLTEIRO", "sigla": "S" },
+          "grauInstrucao": { "id": 1, "descricao": "FUNDAMENTAL INCOMPLETO" },
+          "cidadeNatal": {
+            "id": 3597,
+            "descricao": "PORTO ALEGRE",
+            "uf": { "id": 7, "nome": "Rio Grande do Sul", "sigla": "RS" }
+          },
+          "loja": null
+        },
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/clientes/autenticado/intencoes-operacao",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/clientes/autenticado/intencoes-operacao",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 873,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": [
+          {
+            "id": 256,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T20:39:23.4834918",
+            "dataAtualizacao": "2021-09-14T20:39:23.9785594",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 257,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:23:39.0783307",
+            "dataAtualizacao": "2021-09-14T21:23:39.3402745",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 258,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:25:35.2981241",
+            "dataAtualizacao": "2021-09-14T21:25:35.3465007",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 259,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:28:18.6989836",
+            "dataAtualizacao": "2021-09-14T21:28:18.8192636",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 260,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:29:30.8452306",
+            "dataAtualizacao": "2021-09-14T21:29:30.8755685",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 261,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:35:45.379136",
+            "dataAtualizacao": "2021-09-14T21:35:45.408503",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 262,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:37:09.7204783",
+            "dataAtualizacao": "2021-09-14T21:37:09.7733611",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 263,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:48:24.5008457",
+            "dataAtualizacao": "2021-09-14T21:48:24.5511204",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 264,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:50:12.6533943",
+            "dataAtualizacao": "2021-09-14T21:50:12.7739195",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 265,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:50:21.4748608",
+            "dataAtualizacao": "2021-09-14T21:50:21.5260353",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 266,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:50:26.2521889",
+            "dataAtualizacao": "2021-09-14T21:50:26.2760085",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 267,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:53:05.9706556",
+            "dataAtualizacao": "2021-09-14T21:53:06.1347137",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 268,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:53:08.727949",
+            "dataAtualizacao": "2021-09-14T21:53:08.778382",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 269,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:53:22.8175688",
+            "dataAtualizacao": "2021-09-14T21:53:22.8483321",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 270,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:55:05.6054855",
+            "dataAtualizacao": "2021-09-14T21:55:05.6608701",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 271,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T21:57:05.2448812",
+            "dataAtualizacao": "2021-09-14T21:57:05.2789841",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 272,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T22:16:32.9408853",
+            "dataAtualizacao": "2021-09-14T22:16:33.0033473",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 273,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T22:17:02.3883684",
+            "dataAtualizacao": "2021-09-14T22:17:02.4096431",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 274,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T22:17:16.9848108",
+            "dataAtualizacao": "2021-09-14T22:17:17.0077314",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 275,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T22:18:01.8184812",
+            "dataAtualizacao": "2021-09-14T22:18:01.859055",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 276,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-14T22:18:21.3528834",
+            "dataAtualizacao": "2021-09-14T22:18:21.3724193",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 277,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-15T12:35:46.6480766",
+            "dataAtualizacao": "2021-09-15T12:35:47.3417456",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 278,
+            "prestacao": 242.42,
+            "valorAuxilioFinanceiro": 10000,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 10340.84,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-15T13:31:21.7780608",
+            "dataAtualizacao": "2021-09-15T13:31:21.8595764",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 279,
+            "prestacao": 10000,
+            "valorAuxilioFinanceiro": 412507.97,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 426567.91,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-15T13:36:01.8879538",
+            "dataAtualizacao": "2021-09-15T13:36:01.9304238",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 283,
+            "prestacao": 800,
+            "valorAuxilioFinanceiro": 33001.16,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 34125.43,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-16T18:39:04.0203691",
+            "dataAtualizacao": "2021-09-16T18:39:04.0624913",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 291,
+            "prestacao": 850,
+            "valorAuxilioFinanceiro": 34680.46,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 36258.27,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-21T16:47:44.0686443",
+            "dataAtualizacao": "2021-09-21T16:47:44.2970749",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 292,
+            "prestacao": 850,
+            "valorAuxilioFinanceiro": 34680.46,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 36258.27,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-21T16:49:37.9987268",
+            "dataAtualizacao": "2021-09-21T16:49:38.0432425",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 293,
+            "prestacao": 800,
+            "valorAuxilioFinanceiro": 32640.44,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 34125.43,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-21T16:49:55.4501615",
+            "dataAtualizacao": "2021-09-21T16:49:55.4990822",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 294,
+            "prestacao": 800,
+            "valorAuxilioFinanceiro": 32640.44,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 34125.43,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-21T17:24:09.6613351",
+            "dataAtualizacao": "2021-09-21T17:24:09.7406316",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 295,
+            "prestacao": 800,
+            "valorAuxilioFinanceiro": 32640.44,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 34125.43,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-21T17:24:51.2499312",
+            "dataAtualizacao": "2021-09-21T17:24:51.3388011",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          },
+          {
+            "id": 306,
+            "prestacao": 3500,
+            "valorAuxilioFinanceiro": 142810.94,
+            "taxaMes": 1.8,
+            "taxaAno": 23.87,
+            "valorFinanciado": 149298.77,
+            "prazo": 84,
+            "proposta": null,
+            "permiteAtualizacoes": true,
+            "observacoes": [],
+            "dataInclusao": "2021-09-30T12:16:18.2765633",
+            "dataAtualizacao": "2021-09-30T12:16:18.489615",
+            "primeiroVencimento": "2021-11-08T00:00:00",
+            "tipoOperacao": { "id": 1, "nome": "Novo", "sigla": "N" },
+            "loja": null,
+            "lead": null,
+            "usuario": {
+              "id": 2,
+              "nome": "Fagner Schwalm",
+              "email": "fagnerschwalm@gmail.com",
+              "cpf": "46705821868",
+              "administrador": false,
+              "loja": null,
+              "cliente": null
+            },
+            "produto": {
+              "id": 1,
+              "nome": "Crédito Consignado",
+              "sigla": "CC",
+              "requerConvenio": true
+            },
+            "rendimento": {
+              "id": 93,
+              "convenio": {
+                "id": 1,
+                "nome": "INSS DATAPREV",
+                "codigo": "000020",
+                "descricao": "Disponível para Aposentados e pensionistas do INSS. O valor do empréstimo é descontado diretamente do benefício."
+              },
+              "convenioOrgao": null,
+              "uf": null,
+              "valorRendimento": 3500,
+              "inssEspecieBeneficio": null,
+              "siapeTipoFuncional": null,
+              "matricula": "1234567893",
+              "dataInscricaoBeneficio": "2018-12-20T00:00:00",
+              "dataAdmissao": "0001-01-01T00:00:00",
+              "dataLiberacaoConsultaMargem": null,
+              "matriculaInstituidor": null,
+              "nomeInstituidor": null,
+              "possuiRepresentacaoPorProcurador": false,
+              "margemDisponivel": null,
+              "margemDisponivelCartao": null,
+              "contaCliente": null,
+              "contaClienteRecebimento": null
+            },
+            "passosProduto": [
+              {
+                "titulo": "Solicitação",
+                "descricao": "Solicitação et lorem ipsum dolor sit amet",
+                "completo": true,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Análise",
+                "descricao": "Análise et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Assinatura Digital",
+                "descricao": "Assinatura digital et ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              },
+              {
+                "titulo": "Aprovada",
+                "descricao": "Aprovada et lorem ipsum dolor sit amet",
+                "completo": false,
+                "excepcional": false,
+                "pendenciaUsuario": false
+              }
+            ],
+            "portabilidade": null,
+            "contratos": [],
+            "opcoesProximoPasso": null
+          }
+        ],
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/clientes/autenticado/enderecos",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/clientes/autenticado/enderecos",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 864,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": [
+          {
+            "id": 9,
+            "titulo": "Minha casa",
+            "municipio": {
+              "id": 2584,
+              "descricao": "GUAIBA",
+              "uf": { "id": 7, "nome": "Rio Grande do Sul", "sigla": "RS" }
+            },
+            "bairro": "Centro",
+            "tipoLogradouro": {
+              "id": 31,
+              "descricao": "Avenida",
+              "codigo": "AV"
+            },
+            "logradouro": "Beira rio",
+            "numero": 148,
+            "complemento": "302",
+            "cep": "92704820",
+            "principal": false
+          },
+          {
+            "id": 10,
+            "titulo": "interior",
+            "municipio": {
+              "id": 2497,
+              "descricao": "CERRO GRANDE DO SUL",
+              "uf": { "id": 7, "nome": "Rio Grande do Sul", "sigla": "RS" }
+            },
+            "bairro": "CENTRO",
+            "tipoLogradouro": { "id": 101, "descricao": "Rua", "codigo": "R" },
+            "logradouro": "Jorge Alfredo Henning",
+            "numero": 800,
+            "complemento": "",
+            "cep": "92770000",
+            "principal": false
+          },
+          {
+            "id": 57,
+            "titulo": "Minha casa",
+            "municipio": {
+              "id": 3612,
+              "descricao": "ACRELANDIA",
+              "uf": { "id": 24, "nome": "Acre", "sigla": "AC" }
+            },
+            "bairro": "Centro",
+            "tipoLogradouro": {
+              "id": 24,
+              "descricao": "Acampamento",
+              "codigo": "ACAMP"
+            },
+            "logradouro": "Jorge Alfredo Henning",
+            "numero": 800,
+            "complemento": "306",
+            "cep": "90010282",
+            "principal": true
+          }
+        ],
+        "alertas": [],
+        "erros": []
+      }
+    },
+    {
+      "url": "/clientes/autenticado/telefones",
+      "request": {
+        "method": "GET",
+        "url": "https://plataformacliente-back-dev.azurewebsites.net/clientes/autenticado/telefones",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "Host",
+            "value": "plataformacliente-back-dev.azurewebsites.net"
+          },
+          { "name": "Connection", "value": "keep-alive" },
+          {
+            "name": "sec-ch-ua",
+            "value": "\";Not A Brand\";v=\"99\", \"Chromium\";v=\"94\""
+          },
+          { "name": "Accept", "value": "application/json, text/plain, */*" },
+          {
+            "name": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkZhZ25lciBTY2h3YWxtIiwibmFtZWlkIjoiMiIsInJvbGUiOiIiLCJVc3VhcmlvVGVuYW50IjoiIiwibmJmIjoxNjMzMDI4MzIxLCJleHAiOjE2MzMwNDI3MjEsImlhdCI6MTYzMzAyODMyMX0.qHIwdbum2akIUOwT8pWT8oyhtvVKG1DEvsnPNjS2sqo"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4595.0 Safari/537.36"
+          },
+          { "name": "sec-ch-ua-platform", "value": "\"Linux\"" },
+          { "name": "Origin", "value": "http://localhost:3000" },
+          { "name": "Sec-Fetch-Site", "value": "cross-site" },
+          { "name": "Sec-Fetch-Mode", "value": "cors" },
+          { "name": "Sec-Fetch-Dest", "value": "empty" },
+          { "name": "Referer", "value": "http://localhost:3000/" },
+          { "name": "Accept-Encoding", "value": "gzip, deflate, br" },
+          { "name": "Accept-Language", "value": "en-US,en;q=0.9" }
+        ],
+        "queryString": [],
+        "headersSize": 864,
+        "bodySize": 0
+      },
+      "requestData": {},
+      "response": {
+        "retorno": [
+          {
+            "id": 0,
+            "idCliente": 0,
+            "ddd": null,
+            "fone": null,
+            "principal": false,
+            "tipoTelefone": 0
+          },
+          {
+            "id": 0,
+            "idCliente": 0,
+            "ddd": null,
+            "fone": null,
+            "principal": false,
+            "tipoTelefone": 0
+          }
+        ],
+        "alertas": [],
+        "erros": []
+      }
+    }
+  ]
+}

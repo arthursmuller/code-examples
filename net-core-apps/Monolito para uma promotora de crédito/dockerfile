@@ -1,0 +1,30 @@
+
+ARG DOTNET_VER="2.2" 
+FROM bempromotora/dotnet-sdk:${DOTNET_VER} AS dotnet-build
+WORKDIR /src
+
+ARG PROXY=http://10.90.1.31:3128 
+ARG TEST=0
+ARG SONAR=0
+ARG ASPNETCORE_ENVIRONMENT="Development"
+ARG BUILDCONFIG="Debug"
+
+ENV BUILDCONFIG=${BUILDCONFIG} \
+    ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT} \
+    TEST=${TEST} \
+    SONAR=${SONAR} \
+    http_proxy=${PROXY} \
+    https_proxy=${PROXY} \
+    ftp_proxy=${PROXY} 
+
+#copia todo fonte do diretorio
+COPY . ./
+#executa o script de build
+RUN /usr/bin/dotnet-build
+
+FROM bempromotora/dotnet-runtime:${DOTNET_VER}
+WORKDIR /app
+
+COPY --from=dotnet-build /build /app
+EXPOSE 80
+ENTRYPOINT ["dotnet", "Api.dll"]

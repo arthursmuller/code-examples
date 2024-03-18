@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base-lib.json",
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "declaration": true,
+    "declarationDir": "build"
+  },
+  "include": [
+    "src",
+    "./src/custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "**/*.stories.tsx"
+  ]
+}

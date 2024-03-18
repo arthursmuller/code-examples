@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="5.0.24" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks\AuthenticationProvider\AuthenticationProvider.csproj" />
+    <ProjectReference Include="..\BuildingBlocks\BacenProvider\BacenProvider.csproj" />
+    <ProjectReference Include="..\BuildingBlocks\BrValidators\BrValidators.csproj" />
+    <ProjectReference Include="..\BuildingBlocks\QuodProvider\QuodProvider.csproj" />
+    <ProjectReference Include="..\ExternalEntities.Domain\ExternalEntities.Domain.csproj" />
+    <ProjectReference Include="..\MessageBrokerRabbitMq\MessageBrokerRabbitMq.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://json.schemastore.org/apple-app-site-association.json" /></VisualStudio></ProjectExtensions>
+
+</Project>

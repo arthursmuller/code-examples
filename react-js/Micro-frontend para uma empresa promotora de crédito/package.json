@@ -1,0 +1,69 @@
+{
+  "name": "pcf",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/config/*"
+  ],
+  "devDependencies": {
+    "@digitak/esrun": "^1.2.4",
+    "@types/shelljs": "^0.8.8",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "4.3.6",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.0",
+    "madge": "^5.0.1",
+    "prettier": "^2.2.1",
+    "shelljs": "^0.8.4",
+    "simple-git": "^2.40.0"
+  },
+  "scripts": {
+    "build:icons": "lerna run --scope @pcf/design-system-icons build",
+    "build:ds": "lerna run --scope @pcf/design-system build",
+    "build:storybook": "lerna run --scope @pcf/design-system build-storybook",
+    "build:core": "lerna run --scope @pcf/core build",
+    "build:liveness": "lerna run --scope @pcf/liveness build",
+    "build:apps": "lerna run --scope @pcf/app --scope @pcf/landing build --parallel",
+    "build:landing": "lerna run --scope @pcf/landing build",
+    "build:app": "lerna run --scope @pcf/app build",
+    "build:deps": "yarn build:icons && yarn build:core && yarn build:ds",
+    "start:dev:landing": "lerna run --scope @pcf/landing start",
+    "start:dev:app": "lerna run --scope @pcf/app start",
+    "build": "lerna run build",
+    "lerna": "lerna",
+    "clean": "sh cleanup.sh",
+    "lint:fix": "eslint packages/*/src/**/*.ts{,x} --fix",
+    "lint-staged": "lint-staged",
+    "e2e": "yarn lerna run --scope @pcf/e2e test:ci",
+    "esrun": "esrun"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "packages/*/src/**/*.{js,jsx,ts,tsx,json,css,scss}": [
+      "git add .",
+      "eslint --fix"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}

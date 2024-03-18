@@ -1,0 +1,102 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+  branches:
+    include:
+    - homolog
+    - dev
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: SonarQubePrepare@4
+  displayName: 'Prepare analysis on Sonar'
+  inputs:
+    SonarQube: 'SonarBem'
+    scannerMode: 'MSBuild'
+    projectKey: '$(Build.Repository.Name)'
+    projectVersion: '$(Build.BuildNumber)'
+    extraProperties: |
+      sonar.exclusions=**/obj/**,**/*.dll,**/Migrations/*.cs
+      sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/**/coverage.opencover.xml
+      sonar.cs.vstest.reportsPaths=$(Agent.TempDirectory)/*.trx
+
+- task: DotNetCoreCLI@2
+  displayName: 'DotNet Restore'
+  inputs:
+    command: 'restore'
+    projects: 'Api.sln'
+    arguments: '--no-build'
+    feedsToUse: 'select'
+    vstsFeed: '42d26703-d5b1-4f1d-a2d8-772272df1256'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    arguments: '--configuration $(buildConfiguration) --no-restore'
+  displayName: 'DotNet Build $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '**/Teste/*.csproj'
+    arguments: '--no-build --configuration $(buildConfiguration) /p:CollectCoverage=true /p:ExcludeByFile="**/Infraestrutura/Migrations/*.cs" /p:CoverletOutputFormat=opencover%2ccobertura --logger trx'
+  displayName: 'DotNet Run Tests $(buildConfiguration)'
+
+- script: 'dotnet tool install --global dotnet-reportgenerator-globaltool --version 4.5.8 --ignore-failed-sources'
+  displayName: 'Install ReportGenerator tool'
+
+- script: |
+    export PATH=$PATH:$HOME/.dotnet/tools
+    reportgenerator -reports:$(Build.SourcesDirectory)/**/coverage.cobertura.xml -targetDir:$(Build.SourcesDirectory)/coverlet/reports -reportTypes:"Cobertura"
+  displayName: 'Create reports'
+
+- task: PublishCodeCoverageResults@1
+  displayName: 'Publish Code Coverage from $(Build.SourcesDirectory)/coverlet/reports/Cobertura.xml'
+  inputs:
+    codeCoverageTool: Cobertura
+    summaryFileLocation: '$(Build.SourcesDirectory)/coverlet/reports/Cobertura.xml'
+
+- task: SonarQubeAnalyze@4
+  displayName: 'Run Code Analysis'
+
+- task: SonarQubePublish@4
+  displayName: 'Publish Sonar Result'
+  inputs:
+    pollingTimeoutSec: '300'
+
+- task: sonar-buildbreaker@8
+  displayName: 'Break Build in case SonarQube Failure'
+  inputs:
+    SonarQube: 'SonarBem'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+    arguments: '--configuration $(buildConfiguration) --output "$(Build.BinariesDirectory)"'
+    zipAfterPublish: false
+    modifyOutputPath: true
+  displayName: 'DotNet Publish $(buildConfiguration)'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)/Api'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+  displayName: 'Archive the Compiled Files'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop_$(Build.SourceBranchName)'
+    publishLocation: 'Container'

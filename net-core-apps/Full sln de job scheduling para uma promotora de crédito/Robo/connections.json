@@ -1,0 +1,9 @@
+{
+  "Connections": [
+      {
+          "Nome": "DBSETTINGS",
+          "Tipo": "string",
+          "Valor": "Data Source=localhost;Database=DBSettings;User Id=sis_api;Password=MasterPuppets123"
+      }
+  ]
+}

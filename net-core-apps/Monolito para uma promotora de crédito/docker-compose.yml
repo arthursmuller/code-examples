@@ -1,0 +1,14 @@
+version: "3.3"
+
+networks:
+    redelocal:
+      driver: bridge
+
+services:
+  api:
+    build: .
+    image: bempromotora/scaffold:lastest
+    ports:
+      - 5000:80
+    networks:
+      - redelocal 

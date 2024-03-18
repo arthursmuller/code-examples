@@ -1,0 +1,17 @@
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\Notifications.Domain.deps.json
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\Notifications.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\ref\Notifications.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\Notifications.Domain.pdb
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\BrDateTimeUtils.dll
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\RichEnumeration.dll
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\BrDateTimeUtils.pdb
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\bin\Debug\net5.0\RichEnumeration.pdb
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.csproj.AssemblyReference.cache
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.AssemblyInfoInputs.cache
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.AssemblyInfo.cs
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.csproj.CoreCompileInputs.cache
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.csproj.CopyComplete
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\ref\Notifications.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\Notifications.Domain\obj\Debug\net5.0\Notifications.Domain.pdb

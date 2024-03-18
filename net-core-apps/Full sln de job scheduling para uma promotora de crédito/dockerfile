@@ -1,0 +1,35 @@
+# para rodar o build correto utilize a linha a abaixo
+ARG DOTNET_VER 
+FROM bempromotora/dotnet-sdk:${DOTNET_VER} AS dotnet-build
+LABEL BUILD_NUMBER=""
+WORKDIR /src
+#proxy ambiente local
+ARG PROXY
+ARG PROXY_BYPASS
+ARG TEST
+ARG SONAR
+ARG ASPNETCORE_ENVIRONMENT
+ARG BUILDCONFIG
+ARG BUILD_NUMBER
+
+ENV BUILDCONFIG=${BUILDCONFIG} \
+    BUILD_NUMBER=${BUILD_NUMBER} \
+    ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT} \
+    TEST=${TEST} \
+    SONAR=${SONAR} \
+    http_proxy=${PROXY} \
+    https_proxy=${PROXY} \
+    ftp_proxy=${PROXY} \
+    no_proxy=${PROXY_BYPASS} 
+
+#copia todo fonte do diretorio
+COPY . ./
+#executa o script de build
+RUN /usr/bin/dotnet-build
+
+FROM bempromotora/dotnet-runtime:${DOTNET_VER}
+WORKDIR /app
+
+COPY --from=dotnet-build /build /app
+EXPOSE 80
+ENTRYPOINT ["dotnet", "Robo.dll"]

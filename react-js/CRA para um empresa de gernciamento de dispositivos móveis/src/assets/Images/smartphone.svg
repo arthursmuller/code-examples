@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="smartphone" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:#d7d7dc}
+        </style>
+    </defs>
+    <path id="Caminho_214" d="M30.086 2H10.02C6.7 2 4 5.224 4 9.2v33.6c0 3.976 2.7 7.2 6.02 7.2h20.066c3.325 0 6.02-3.224 6.02-7.2V9.2c0-3.976-2.695-7.2-6.02-7.2zm2.007 40.8a2.23 2.23 0 0 1-2.007 2.4H10.02a2.23 2.23 0 0 1-2.007-2.4V9.2a2.23 2.23 0 0 1 2.007-2.4h20.066a2.23 2.23 0 0 1 2.007 2.4z" class="cls-2" transform="translate(4.026 -2)"/>
+    <circle id="Elipse_25" cx="3.01" cy="3.01" r="3.01" class="cls-2" transform="translate(21.069 32.102)"/>
+    <path id="Caminho_215" d="M20.54 6H10.507a2.007 2.007 0 1 0 0 4.013H20.54a2.007 2.007 0 0 0 0-4.013z" class="cls-2" transform="translate(8.556 3.775)"/>
+</svg>

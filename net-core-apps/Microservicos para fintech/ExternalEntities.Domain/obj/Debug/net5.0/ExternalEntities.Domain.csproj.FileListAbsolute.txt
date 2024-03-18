@@ -1,0 +1,17 @@
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\ExternalEntities.Domain.deps.json
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\ExternalEntities.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\ref\ExternalEntities.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\ExternalEntities.Domain.pdb
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\BrDateTimeUtils.dll
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\BrDateTimeUtils.pdb
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.csproj.AssemblyReference.cache
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.AssemblyInfoInputs.cache
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.AssemblyInfo.cs
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.csproj.CoreCompileInputs.cache
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.csproj.CopyComplete
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ref\ExternalEntities.Domain.dll
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\obj\Debug\net5.0\ExternalEntities.Domain.pdb
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\RichEnumeration.dll
+D:\dev_Projects\capwise\net-core-apps\ExternalEntities.Domain\bin\Debug\net5.0\RichEnumeration.pdb

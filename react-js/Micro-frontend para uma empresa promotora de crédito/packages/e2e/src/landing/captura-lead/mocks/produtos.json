@@ -1,0 +1,18 @@
+{
+  "retorno": [
+    {
+      "id": 2,
+      "nome": "Cartão Crédito Consignado",
+      "sigla": "CCC",
+      "requerConvenio": false
+    },
+    {
+      "id": 1,
+      "nome": "Crédito Consignado",
+      "sigla": "CC",
+      "requerConvenio": true
+    }
+  ],
+  "alertas": [],
+  "erros": []
+}

@@ -1,0 +1,16 @@
+{
+  "retorno": [
+    { "habilitado": true, "chave": "TEST" },
+    { "habilitado": true, "chave": "NEXT_PUBLIC_FEATURE_ACESSAR_CONTA" },
+    { "habilitado": true, "chave": "ACESSAR_CONTA" },
+    { "habilitado": true, "chave": "SIMULAR_NOVO" },
+    { "habilitado": true, "chave": "WHATSAPP" },
+    { "habilitado": true, "chave": "CRIAR_CONTA" },
+    { "habilitado": true, "chave": "LOGIN_SOCIAL" },
+    { "habilitado": true, "chave": "PORTABILIDADE" },
+    { "habilitado": true, "chave": "CARTAO" },
+    { "habilitado": true, "chave": "REFIN" }
+  ],
+  "alertas": [],
+  "erros": []
+}

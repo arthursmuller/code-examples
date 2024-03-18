@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Aplicacao</AssemblyName>
+    <RootNamespace>Aplicacao</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj" />
+    <ProjectReference Include="..\Infraestrutura\Infraestrutura.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="B.Agendador" Version="2.0.0" />
+    <PackageReference Include="B.Mensagens" Version="3.6.4" />
+    <PackageReference Include="B.WhatsApp" Version="1.3.4-beta" />
+    <PackageReference Include="MassTransit" Version="6.3.2" />
+    <PackageReference Include="SharedKernel" Version="2.2.2" />
+  </ItemGroup>
+
+</Project>

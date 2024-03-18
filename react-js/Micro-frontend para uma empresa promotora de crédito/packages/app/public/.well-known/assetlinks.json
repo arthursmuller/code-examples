@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "net.azurewebsites.plataformacliente_landing_dev.twa",
+    "sha256_cert_fingerprints": [
+      "28:AA:E8:13:78:AE:1F:66:6D:0E:DF:B9:E7:2E:FF:C2:38:75:A9:45:40:A8:81:32:44:EE:33:E3:30:94:C7:A5"
+    ]
+  }
+ }]

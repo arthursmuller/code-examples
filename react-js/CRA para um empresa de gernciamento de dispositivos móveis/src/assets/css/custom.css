@@ -1,0 +1,25 @@
+.button {
+  height: 45px;
+}
+
+.button.blue {
+  margin: 19px 14px 0 29px;
+  padding: 12px 53px 11px;
+  background-color: #0190fe !important;
+}
+
+.button.blue:hover {
+  opacity: 0.7;
+}
+
+.button.white {
+  margin: 19px 29px 0 14px;
+  padding: 12px 54px 11px 53px;
+  border: solid 1px #0190fe !important;
+  background-color: #fff !important;
+  color: #0190fe;
+}
+
+.button.white:hover {
+  background: #ebf8ff !important;
+}

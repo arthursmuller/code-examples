@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dominio.AnexoDominio">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAQ=</HashCode>
+      <FileName>AnexoDominio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Dominio.ConvenioDominio">
+    <Position X="21.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>ConvenioDominio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.EntidadeBase">
+    <Position X="18.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAQ=</HashCode>
+      <FileName>EntidadeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.IntencaoOperacaoDominio">
+    <Position X="4.25" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABUQQIAAAAAAAAAGBABAAAAAgAAAEAIAMIIAAIAA=</HashCode>
+      <FileName>IntencaoOperacaoDominio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Situacao" />
+      <Property Name="TipoOperacao" />
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Dominio.LeadDominio">
+    <Position X="12.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CEAABkAAgGAAAAEAACAIAACEAACgAAIAAEAAIAEAAAg=</HashCode>
+      <FileName>LeadDominio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Loja" />
+      <Property Name="Convenio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Dominio.LojaDominio">
+    <Position X="24.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CBAAAACAgEAAAAEEAAAICACAAAAAAAAAAAAAAAEAEgg=</HashCode>
+      <FileName>LojaDominio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Telefones" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Dominio.ParametroOperacaoDominio">
+    <Position X="30.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgACAIAAAAAEAABAAAACAAQAAAAAAIAAAAAA=</HashCode>
+      <FileName>ParametroOperacaoDominio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Convenio" />
+      <Property Name="TipoOperacao" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Dominio.ProdutoDominio">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>ProdutoDominio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.SituacaoIntencaoOperacaoDominio">
+    <Position X="15.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SituacaoIntencaoOperacaoDominio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.TelefoneLojaDominio">
+    <Position X="27.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABECAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelefoneLojaDominio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.TipoConta">
+    <Position X="34.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TipoConta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.TipoOperacaoDominio">
+    <Position X="10.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEBAAAAAAAAAAgAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>TipoOperacaoDominio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.TipoVinculoInstitucional">
+    <Position X="19" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TipoVinculoInstitucional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dominio.UsuarioDominio">
+    <Position X="33.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABBEAAACAAAAEAQAAAAACAACAAAAAAAAAAoAEAAAA=</HashCode>
+      <FileName>UsuarioDominio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Loja" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
